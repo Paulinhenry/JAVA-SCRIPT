@@ -9,3 +9,36 @@ Variaveis:
 usar var
 variaveis podem começar com letra, $ ou _, não podem começar com números 
 atribuição: =
+para digitar variavel usar: var nome ('Olá, Prazer, ' + nome) //concatenação
+para somas númericas o sinal + deve estar entre duas variaveis númericas caso contrário funcionara com uma concatenação
+
+number + number = soma
+string + string = concatenação
+
+Para transformar strings em numbers usar:
+Number.parseInt(n)
+Number.parseFloat(n)
+Number(n)
+ex: var n1 = Number.parseFloat (window.prompt("Qual é o seu número favorito ?"));
+
+Para transformar número para strings usar:
+String(n)
+n.toString()
+
+Existe um jeito moderno de Concatenação:
+`${s}`
+var nome (`Olá, Prazer, ${nome}`) tem que usar crase no lugar das aspas //template string
+
+formatação de strings:
+s.lenght //quantas caracteres a string tem
+s.toUpperCase() // tudo para Maiusculas
+s.toLowerCase() // tudo para minusculas
+
+formatção números:
+n1=1555.5
+n1
+n1.toFixed(2) // para casas decimais
+n1.toFixed(2).replace('.', ',') //para substituir ponto por birgula
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
