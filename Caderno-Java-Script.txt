@@ -6,3 +6,6 @@ window.confirm("Pergunta"); comando para gerar uma pergunta antes do site abrir
 window.prompt("Qual é o seu nome?"); comando para abrir caixa de texto
 
 Variaveis:
+usar var
+variaveis podem começar com letra, $ ou _, não podem começar com números 
+atribuição: =
