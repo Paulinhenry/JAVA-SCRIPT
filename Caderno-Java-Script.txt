@@ -45,3 +45,19 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
 
 Operadores:
 Aritméticos: +, -, *, /, %, **
+
+Relacionais: >, <, >=, <=, ==, !=
+
+Logicos: !: negação, &&: conjunção, ||: disjunção"ou" 
+
+DOM:
+Árvore dom:				window
+		location		document		history
+					    |
+					   \/
+				          html
+					body head
+
+Para selecionar elementos para manipular com o dom usar getElementsBy... colocar metodo de seleção como id classe ou tag
+
+Da para usar de maneira mais moderna usando querySelector
